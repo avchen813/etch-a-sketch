@@ -1,0 +1,1 @@
+This project will involve creating an etch-a-sketch within the browser by making a square grid using the DOM. When the mouse hovers over a cell in the grid, that cell will change to a random colour.
