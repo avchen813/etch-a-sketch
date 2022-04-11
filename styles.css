@@ -1,0 +1,23 @@
+:root {
+    --number-of-columns;
+    --r-color-value;
+    --g-color-value;
+    --b-color-value;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(var(--number-of-columns), 1fr);
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    border: solid black 1px;
+}
+
+.grid-cell {
+    border: solid black 1px;
+}
+
+.cell-color {
+    background-color: rgb(var(--r-color-value), var(--g-color-value), var(--b-color-value));
+}
