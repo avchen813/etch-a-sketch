@@ -1,8 +1,5 @@
 :root {
     --number-of-columns;
-    --r-color-value;
-    --g-color-value;
-    --b-color-value;
 }
 
 .main-container {
@@ -16,8 +13,4 @@
 
 .grid-cell {
     border: solid black 1px;
-}
-
-.cell-color {
-    background-color: rgb(var(--r-color-value), var(--g-color-value), var(--b-color-value));
 }
