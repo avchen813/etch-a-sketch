@@ -1,10 +1,10 @@
 :root {
-    --number-of-columns;
+    --squares-on-each-side;
 }
 
 .main-container {
     display: grid;
-    grid-template-columns: repeat(var(--number-of-columns), 1fr);
+    grid-template-columns: repeat(var(--squares-on-each-side), 1fr);
     margin: auto;
     width: 400px;
     height: 400px;
@@ -13,4 +13,10 @@
 
 .grid-cell {
     border: solid black 1px;
+}
+
+#create-grid-button {
+    display: block;
+    margin: 12px auto;
+    padding: 4px 8px;
 }
